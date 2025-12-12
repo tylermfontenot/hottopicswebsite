@@ -1,0 +1,164 @@
+/* styles.css */
+
+/* Basic Emo/Pop-Punk Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000; /* Dark background */
+    color: #f0f0f0; /* Light text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ff69b4; /* Pink/Hot Pink accent */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 0;
+    /* Removed dashed border */
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #ff69b4; /* Hot Pink accent */
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.1em;
+}
+
+/* Hero Section (Logo Background) */
+.hero {
+    background-color: #000;
+    min-height: 500px;
+    padding: 20px 0;
+    text-align: center;
+    background-image: url('pics/hottopicslogo.jpg');
+    background-repeat: no-repeat;
+    background-position: center 10px;
+    background-size: 300px auto;
+}
+
+/* Gallery and Media Section */
+.gallery-grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-grid img {
+    width: 48%; 
+    max-width: 250px; 
+    border: 3px solid #ff69b4;
+}
+
+/* Table Styling (Shows) */
+table {
+    width: 80%; /* Adjusted width for centering */
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #444;
+    text-align: center; /* Ensures cell content is centered */
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Add these rules to your styles.css file */
+
+.member-grid {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: nowrap; /* Keep this to prevent vertical stacking */
+    gap: 5px; /* Reduced gap between cards */
+    padding: 20px 0;
+    text-align: center;
+    
+    /* REMOVED: overflow-x: auto; to disable the scroll bar */
+}
+
+.member-card {
+    background-color: #111; 
+    padding: 10px 5px; /* Reduced padding */
+    border: 1px solid #ff69b4;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.2); 
+    
+    /* ⬅️ CRITICAL: Reduced fixed width to ensure five fit across */
+    flex: 0 0 150px; 
+}
+
+.member-card img {
+    /* ⬅️ Reduced photo size */
+    width: 120px; 
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px; 
+    border: 4px solid #fff; 
+    margin-bottom: 5px;
+}
+
+/*  Grid - You need to add this if you implement the member section later */
+/*
+.member-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px;
+    text-align: center;
+    padding: 20px 0;
+}
+.member-card {
+    background-color: #111;
+    padding: 10px 5px;
+    border: 1px solid #ff69b4;
+}
+.member-card img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ff69b4;
+    margin-bottom: 5px;
+}
+*/
