@@ -4,257 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Hot Topics - Still Not a Phase</title>
-    <style>
-        /* Basic Emo/Pop-Punk Styling */
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #000000; /* Dark background */
-            color: #f0f0f0; /* Light text */
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        header {
-            background-color: #000000;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav a {
-            color: #ff69b4; /* Pink/Hot Pink accent */
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-        nav a:hover {
-            color: #fff;
-            text-decoration: underline;
-        }
-        section {
-            padding: 40px 0;
-            /* border-bottom: 2px dashed #444; /* Emo/Grungy line separation */
-        }
-        h1, h2, h3 {
-            text-align: center;
-            color: #ff69b4; /* hot pink accent */
-            text-transform: uppercase;
-        }
-        h1 {
-            font-size: 3em;
-            margin-bottom: 0.1em;
-        }
-        .hero {
-            background-color: #000;
-            padding: 80px 0;
-            text-align: center;
-        }
-	
-	.hero {
-            background-color: #000;
-        
-            /* Set a minimum height for the logo area */
-            min-height: 500px; 
-        
-            /* Keep vertical padding small, the height handles the space */
-            padding: 20px 0; 
-         
-            text-align: center;
-        
-            /* Logo background styles */
-            background-image: url('pics/hottopicslogo.jpg'); 
-            background-repeat: no-repeat;
-            background-position: center 10px;
-        
-            /* Center horizontally and position 10px from the top */
-            background-position: center 10px; 
-        
-            /* Set logo size relative to the container */
-            background-size: 300px auto; /* ⬅️ Changed to a fixed width for stability */
-       }	
-       .member-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            text-align: center;
-        }
-        .member-card {
-            background-color: #222;
-            padding: 15px;
-            border: 1px solid #ff69b4;
-        }
-        .member-card img {
-            width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 10px;
-        }
-        .social-links a {
-            display: inline-block;
-            margin: 0 15px;
-            font-size: 2em;
-            color: #ff69b4;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-            text-align: left;
-        }
-        th, td {
-            padding: 12px;
-            border-bottom: 1px solid #444;
-        }
-        th {
-            background-color: #333;
-            color: #fff;
-        }
-        footer {
-            text-align: center;
-            padding: 20px 0;
-            background-color: #000;
-            font-size: 0.9em;
-            color: #777;
-        }
-    </style>
-</head>
+    <link rel="stylesheet" href="styles.css"> </head>
 <body>
 
     <header>
         <div class="container">
             <nav>
-                <a href="#about">About</a>
-                <a href="#media">Media</a>
-                <a href="#shows">Shows</a>
-                <a href="#pastshows">Past Shows</a>
-                <a href="#follow">Follow Us</a>
-                <a href="#follow">Booking</a>
+                <a href="index.html">Home</a>
+                <a href="members.html">Members</a>
+                <a href="shows.html">Shows</a>
+                <a href="media.html">Media</a>
+                <a href="booking.html">Booking</a>
             </nav>
         </div>
     </header>
 
     <section class="hero">
         <div class="container">
-            <h1 style="display: none;">THE HOT TOPICS</h1> 
-            
-            <h2 style="color: #ff69b4; font-size: 2.5em; margin-top: 300px;">"STILL NOT A PHASE!!"</h2>
-            <p style="font-size: 1.1em;">Baton Rouge's greatest late-night, power-chord, sad-song anthem band.</p>           
+            <h1 style="display: none;">THE HOT TOPICS</h1>
+            <h2 style="color: #ff69b4; font-size: 2.5em; margin-top: 300px;">"STILL NOT A PHASE."</h2>
+            <p style="font-size: 1.1em;">Your new favorite late-night, power-chord, sad-song anthem band.</p>
         </div>
     </section>
     
     <section id="about" class="container">
         <h2>💔 Who Are The Hot Topics? 💔</h2>
         <p style="text-align: center; max-width: 600px; margin: 0 auto;">
-            Formed in a dimly-lit basement fueled by cheap coffee and mid-2000s nostalgia, **The Hot Topics** are a five-piece force delivering heart-on-your-sleeve lyrics over punchy, unforgettable guitar riffs. We sing about heartbreak, skate parks, and why growing up is the *worst*. If you miss tight jeans and 					MySpace surveys, you've found your new soundtrack.
+            Formed in a dimly-lit basement fueled by cheap coffee and mid-2000s nostalgia, **The Hot Topics** are a five-piece force delivering heart-on-your-sleeve lyrics over punchy, unforgettable guitar riffs. We sing about heartbreak, skate parks, and why growing up is the *worst*. If you miss tight jeans and MySpace surveys, you've found your new soundtrack.
         </p>
     </section>
-
-
-
-    <section id="media" class="container">
-        <h2>📸 Gallery of Regret 📸</h2>
-        <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
-            <img src="pics/meghantongue.jpg" alt="Live Photo" style="width: 48%; max-width: 250px; border: 3px solid #ff69b4;">
-            <img src="pics/tylerdakotajam.jpg" alt="Album Art" style="width: 48%; max-width: 250px; border: 3px solid #ff69b4;">
-            <img src="pics/jeremy.jpg" alt="Backstage Photo" style="width: 48%; max-width: 250px; border: 3px solid #ff69b4;">
-            <img src="pics/brandon.jpg" alt="Band Logo" style="width: 48%; max-width: 250px; border: 3px solid #ff69b4;">
-            <img src="pics/dakota.jpg" alt="Band Logo" style="width: 48%; max-width: 250px; border: 3px solid #ff69b4;">
-            <img src="pics/tylermeghanjam.jpg" alt="Band Logo" style="width: 48%; max-width: 250px; border: 3px solid #ff69b4;">
-            <img src="pics/meghan2.jpg" alt="Band Logo" style="width: 48%; max-width: 250px; border: 3px solid #ff69b4;">
-            <img src="pics/brandon2.jpg" alt="Band Logo" style="width: 48%; max-width: 250px; border: 3px solid #ff69b4;">
-            <img src="pics/bandposed.jpg" alt="Band Logo" style="width: 48%; max-width: 250px; border: 3px solid #ff69b4;">
-        </div>
-    </section>
-
-    <section id="shows" class="container">
-        <h2>🚨 Where We're Screaming Next 🚨</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Venue/Event</th>
-                    <th>Location</th>
-               </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>12/12/2025</td>
-                    <td><a href="https://www.facebook.com/IceHouseBatonRouge" target="_blank" style="color: #f0f0f0; text-decoration: underline;">The Ice House</a></td>
-                    <td>Baton Rouge, LA</td>
-                </tr>
-                <tr>
-                    <td>1/30/2026</td>
-                    <td><a href="https://www.facebook.com/IceHouseBatonRouge" target="_blank" style="color: #f0f0f0; text-decoration: underline;">The Ice House</a></td>
-                    <td>Baton Rouge, LA</td>
-                </tr>
-
-            </tbody>
-        </table>
-    </section>
-    
-    <section id="pastshows" class="container">
-        <h2>🗓️ Our Glorious History 🗓️</h2>
-        <p style="text-align: center; color: #aaa;">A look back at the stages we've conquered (and occasionally bombed).</p>
-        <table>
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Venue/Event</th>
-                    <th>Location</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>11/07/2025</td>
-                    <td>O'Hara's Irish Pub</td>
-                    <td>Baton Rouge, LA</td>
-                </tr>
-                <tr>
-                    <td>10/10/2025</td>
-                    <td>Swamp Chicken</td>
-                    <td>St Amant, LA</td>
-                </tr>
-                <tr>
-                    <td>09/26/2025</td>
-                    <td>Fred's On The River</td>
-                    <td>Prairieville, LA</td>
-		</tr>
-		<tr>
-                    <td>08/01/2025</td>
-                    <td>Swamp Chicken</td>
-                    <td>St Amant, LA</td>
-                </tr>
-		<tr>
-                    <td>07/18/2025</td>
-                    <td>The Ice House</td>
-                    <td>Baton Rouge, LA</td>
-		</tr>
-            </tbody>
-        </table>
-    </section>
-
-    <section id="follow" class="container" style="text-align: center;">
-      
 
     <section id="follow" class="container" style="text-align: center;">
         <h2>🔗 Follow us on Facebook for more Pics and Vids! 🔗</h2>
         <div class="social-links">
             <a href="https://facebook.com/thehottopicsband" target="_blank" title="Facebook">📘</a>
-
         </div>
-    </section>
-    
-    <section id="booking" class="container" style="text-align: center;">
-        <h2>📝 Booking Info 📝</h2>
-        <p>Want to book 💔The Hot Topics💔 for your venue, festival, or basement party?</p>
-        <p style="font-size: 1.2em; font-weight: bold;">
-            Email us directly at: 
-            <a href="mailto:theband@thehottopicsband.com" style="color: #ff69b4; text-decoration: none;">theband@thehottopicsband.com</a>
-        </p>
     </section>
 
     <footer>
